@@ -20,15 +20,15 @@ public class Atividades {
         f2.dataEntrada = dataF2;
         f2.rg = "33333333";
         f2.salario = 1780.00;
-        
+
         if (f1 == f2) {
             System.out.println("iguais");
         } else {
             System.out.println("diferentes");
         }
-    
+
         f1.mostra();
         f2.mostra();
     }
-    
+
 }

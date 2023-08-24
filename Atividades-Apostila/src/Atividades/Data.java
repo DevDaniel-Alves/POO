@@ -1,6 +1,7 @@
 package Atividades;
 
 public class Data {
+
     int dia, mes, ano;
 
     public Data(int dia, int mes, int ano) {
@@ -8,11 +9,9 @@ public class Data {
         this.mes = mes;
         this.ano = ano;
     }
-    
-    void dataFormatada(){
+
+    void dataFormatada() {
         System.out.println("Data de Entrada: " + this.dia + "/" + this.mes + "/" + this.ano);
-    }    
-    
-    
-    
+    }
+
 }

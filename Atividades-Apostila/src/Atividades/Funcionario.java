@@ -16,10 +16,8 @@ public class Funcionario {
         double total = this.salario * 12;
         return total;
     }
-    
 
     void mostra() {
-        System.out.println("");
         System.out.println("===================================");
         System.out.println("Nome: " + this.nome);
         System.out.println("Departamento: " + this.departamento);
