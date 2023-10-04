@@ -2,23 +2,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package dados;
+package at.semana6;
+
+import java.util.Scanner;
 
 /**
  *
  * @author 07556510140
  */
-public class Dados {
-
-    /**
-     * @param args the command line arguments
-     */
+public class AtSemana6 {
+    
     public static void main(String[] args) {
-        Jogada f1 = new Jogada();
-        f1.sortear();
-        f1.resultado();
-        
-        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Qual atividades?");
+        int exercicios = sc.nextInt();
+        ExerciciosArray.ExerciciosArray(exercicios);
     }
     
 }
